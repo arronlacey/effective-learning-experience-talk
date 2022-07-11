@@ -18,12 +18,12 @@ jobs:
         run: mkdir slides && sudo chmod 777 slides
 
       - name: Build PDF
-        run: docker run --rm -t -v `pwd`:/slides -v ~:/home/user astefanutti/decktape reveal-js-presentation/index.html slides/reveal-js-presentation.pdf
+        run: docker run --rm -t -v `pwd`:/slides -v ~:/home/user astefanutti/decktape index.html reveal-js-presentation.pdf
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./slides
-          publish_branch: slides
+          publish_dir: .
+          publish_branch: main
           keep_files: true
