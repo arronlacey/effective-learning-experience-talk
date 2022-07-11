@@ -93,7 +93,7 @@ We learn best through **doing**, not just listening. We will focus on just two t
 
 No vague tutorials - embrace abstraction. Think of the real-world challenges that students might face.
 
-## Actionable
+## Action
 
 Absorbing knowledge is important, but acting on it re-enforces learned material. We should aim to minimize the time between learning a concept and practicing it.
 
@@ -264,16 +264,6 @@ knitr::kable(head(mtcars)[,c("mpg",	"cyl", "disp", "hp", "wt")])
 
 ::: footer
 Learn more: [Multiple Columns](https://quarto.org/docs/presentations/revealjs/#multiple-columns)
-:::
-
-## Incremental Lists
-
-Lists can optionally be displayed incrementally:
-
-::: incremental
--   First item
--   Second item
--   Third item
 :::
 
 . . .
