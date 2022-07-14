@@ -57,10 +57,10 @@ tutorial::go_interactive()
 ::: columns
 ::: {.column width="50%"}
 - **Achievement**
-    - Clear Learning Outcomes
-    - Accessible Content
+    - Expectations
     - Understand your audience
     - Relevance
+    - Accessible Content
 :::
 ::: {.column width="50%"}
 - **Action**
@@ -71,26 +71,63 @@ tutorial::go_interactive()
 :::
 :::
     
-## Clear Learning Outcomes
+## Expectations
 
-- Provide a roadmap for the session/course/workshop
-- The class knows what to expect and can prepare
+::: columns
+::: {.column width="60%"}
+::: {.fragment}
 - Onboard the class - we do it in new jobs so why not in a learning environment?
+:::
+::: {.fragment}
+- Provide a roadmap for the session/course/workshop
+  - The class knows what to expect and to prepare
+:::
+::: {.fragment}
+- You will be able to do / understand **this** at the end
+:::
+:::
+::: {.column width="40%"}
+![](images/roadmap.jpg)
+:::
+:::
+
 
 ## Understand your audience
 
--Course participants will already have their own experience 
-  -we want to build on that, not teach them what they already know. 
--Assess their motivation. 
-  -Try a pre-survey to get participant experience and tailor your delivery. 
--Encourage constant feedback 
-  - listen to it and pivot if needed. Direct the audience to what kind of feedback will be helpful.
+::: {.fragment}
+- Course participants will already have their own experience
+    - we want to build on that, not teach them what they already know
+:::
+::: {.fragment}
+- Assess their motivation and needs
+    - Try a pre-survey to get participant experience and tailor your delivery. 
+:::
+::: {.fragment}
+- Encourage constant feedback 
+    - Listen and pivot if needed
+    - Direct the audience to what kind of feedback will be helpful
+    - If I learn someone is a cardiologist I will try throw in some relevant examples later in the course
+:::
 
 ## Relevance
 
-No vague tutorials - embrace abstraction. Think of the real-world challenges that students might face.
+::: {.fragment}
+- No vague tutorials - embrace abstraction
+:::
+::: {.fragment}
+- Think of real-world challenges that students might face
+:::
+::: {.fragment}
+- Is this a health related course?
+  - Start scouring the internet for healthcare datsets to use!
+  - Although it's ok to use a really **out there** example to keep things fresh
+:::
+
+
 
 ## Abstraction {auto-animate="true"}
+
+Abstraction is a powerful tool to help remember concepts
 
 ``` {.python code-line-numbers="2|4|5|8"}
 # Function definition is here
@@ -121,9 +158,9 @@ print "The Incidence Rate Ratio for Epilepsy is : ", IncidenceRate, "per 10,000"
 
 ## Abstraction
 
-![](images/starwarsfilter.png){.absolute left="-10"}
+![](images/starwarsfilter.png){.fragment .absolute left="-10"}
 
-![](images/ewokianflu.png){.absolute right="-100" width="500"}
+![](images/ewokianflu.png){.fragment .absolute right="-100" width="500"}
 
 ![](images/trekkies.png){.absolute .fragment bottom="20" right="20" width=400}
 
@@ -194,61 +231,76 @@ Learn more: [Line Highlighting](https://quarto.org/docs/presentations/revealjs/#
 
 
 
-## Learning Environment
+## Learning Environment - build on MWEs
 
+::: columns
+::: {.column width="60%"}
+::: {.fragment}
 - A consistent learning environment that is easy to use
+:::
+::: {.fragment}
 - Keeps a tight focus for you to control the environment
   - I recommend open source cloud based solutions where possible
+  - Kaggle, Colab, Binder etc
+:::
+::: {.fragment}
 - Can self assess and understand how they are learning
+:::
+:::
+::: {.column width="40%"}
+![](images/realworlddata.png)
+:::
+:::
 
 ## Kaggle for Data Science and Machine Learning
 
-
+- My favourite cloud solution for teaching Data Science and ML
+- Dockerized notebooks
+- Free GPU
+- Access to many and huge datasets (including those hairy beasts)
+- Version control
 
 ## Collaboration
 
-::: columns
-::: {.column width="50%"}
+::: {.fragment}
 - Set the tone and expectations for collaborative sessions
   - Code of conduct
   - Set clear goals for sessions
+:::
+::: {.fragment}
 - Try and pair up participants that will learn from eachother
-
+:::
+::: {.fragment}
 - Some ideas:
   - Discuss the benefits and potential harms of using digital technology to attempt to detect dementia 20 years early
   - Create a COVID Dashboard that tracks new cases by variant over time
   - GitHub Pull Request Practice 
 :::
-::: {.column width="50%"}
-:::
-:::
 
-![](images/collaboration.jpeg){.absolute right=-200 top=10 height=800 width=700}
-  
-    
 ## Future Learning
 
+::: {.fragment}
 - Move the participants towards independence in the topic
+:::
+::: {.fragment}
 - Set them up to succeed
-- Recommend learning materials that will build on the course and challenge them
+  - Recommend learning materials that will build on the course and challenge them
   - Tailor by discussing their motivations for enrolling on the course/workshop
+:::
+
+
+![](images/bayes_rules_book_cover.jpeg){.absolute .fragment bottom="50" left="100" width="220"}
+
+![](images/bayes-rules-hex.png){.absolute .fragment bottom="60" left="80" width="80" height="80"}
   
-## Absolute Position
+![](images/statistical-rethinking.png){.absolute .fragment bottom="50" right="100" width="220"}
 
-Position images or other elements at precise locations
-
-![](images/bayes_rules_book_cover.jpeg){.absolute bottom="50" left="30" width="180"}
-
-![](images/bayes-rules-hex.png){.absolute bottom="60" left="20" width="80" height="80"}
-
-![](images/statistical-rethinking.png){.absolute bottom="50" right="30" width="150"}
-
-## Future Learning
+## Introduce relevant GitHub projects
 
 <a href="https://github.com/rstudio/vetiver-r/issues/120"><img src="images/vetiver-issue.png" style="width:300px;"></a>
 
-## 
+## Thank you for your time!
 
-- Thank You! Slides at [https://arronlacey.github.io/effective-learning-experience-talk/#/title-slide](https://arronlacey.github.io/effective-learning-experience-talk/#/title-slide)
+Slides made with Quarto + revealjs
 
 <video muted data-autoplay src="images/redshirts.mov" width="500" class="center"></video>
