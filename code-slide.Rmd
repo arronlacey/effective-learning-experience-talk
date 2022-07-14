@@ -1,7 +1,5 @@
 ---
-title: "code-slide"
-author: "Arron Lacey"
-date: '2022-07-11'
+title: "Coding Minimum Working Example"
 output:
   html_document:
     self_contained: false
@@ -36,3 +34,25 @@ test_object("a")
 test_output_contains("a", incorrect_msg = "Make sure to print `a`.")
 success_msg("Great!")
 ```
+
+```{r ex="summarise", type="sample-code"}
+# View the first 6 rows of mtcars
+
+
+# get the mean and total samples per cycle group
+
+```
+
+
+```{r ex="summarise", type="solution"}
+# View the first 6 rows of mtcars
+head(mtcars)
+
+library(dplyr)
+# get the mean and total samples per cycle group
+mtcars %>%
+  group_by(cyl) %>%
+  summarise(mean = mean(disp), n = n())
+
+```
+

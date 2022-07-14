@@ -1,2 +1,3 @@
-# effective-learning-experience-talk
-A Talk at the "Making Learning Memorable" seminar from the Data Science and AI Educators series at the Alan Turing Institute
+## Talk given for the Data Science and AI Educators Series at the Alan Turing Institute
+
+To view the talk in your browser please go here https://arronlacey.github.io/effective-learning-experience-talk/ 
