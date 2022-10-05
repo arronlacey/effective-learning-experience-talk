@@ -127,7 +127,7 @@ tutorial::go_interactive()
 
 ## Abstraction {auto-animate="true"}
 
-Abstraction is a powerful tool to help remember concepts
+Abstraction is a powerful tool to help remember concepts - but are foo, bar and baz?
 
 ``` {.python code-line-numbers="2|4|5|8"}
 # Function definition is here
@@ -141,6 +141,8 @@ bar = foo( 10, 20 );
 ```
 
 ## Abstraction {auto-animate="true"}
+
+Use abstraction in function and variable names
 
 ``` {.python code-line-numbers="2|4|5|8|10"}
 # Function definition is here
