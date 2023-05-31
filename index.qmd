@@ -305,4 +305,4 @@ Learn more: [Line Highlighting](https://quarto.org/docs/presentations/revealjs/#
 
 Slides made with Quarto + revealjs
 
-<video controls muted data-autoplay src="images/redshirts.mov" width="500" class="center"></video>
+<video muted data-autoplay src="images/redshirts.mov" width="500" class="center"></video>
